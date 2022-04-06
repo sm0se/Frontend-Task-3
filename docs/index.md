@@ -1,37 +1,157 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
 
-You can use the [editor on GitHub](https://github.com/sm0se/Frontend-Task-3/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="./HomeBakes.css" />
+    <link rel="stylesheet" href="./images/" />
+    <title>STC frontend task 3</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<body>
 
-### Markdown
+    <div class="ellipse0">
+        <img src="./images/Ellipse 1.svg" class="float-right my-n5" style="transform: rotate(90deg); position: relative;">
+    </div>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+    <div class="top" style="background-color: #ffe6e6;">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">HomesBakes</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Recipes <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Tricks <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Shop <span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+            </div>
+        
+        </nav>
 
-# Header 1
-## Header 2
-### Header 3
+        <div class="Content">
+            <div class="columns d-flex">
+                <div class="col-lg-2 mx-n3">
+                    <img class="ellipse1" src="./images/Ellipse 1.svg" >
+                </div>
+                <div class="text col-lg-5 my-5 ">
+                    <h1 class="heading">
+                        <p>Delicious and easy</p>
+                        <p>Homemade Recipees that</p>
+                        <p>makes you Rise and Shine</p>
+                    </h1>
+                    <h4 class="info">
+                        <p>Dont forget to check out our tricks section!</p>
+                    </h4>
+                </div>
+                <div class="ladyimg col-lg-7 my-5">
+                    <img class="lady" src="./images/landing_lady.svg">
+                </div>
+            </div>
+        </div>
+    </div>
 
-- Bulleted
-- List
+    
+    <div class="middle">
 
-1. Numbered
-2. List
+        <h2 class="recipe-title p-3">Featured Recipes</h2>
 
-**Bold** and _Italic_ and `Code` text
+        <div class="column d-flex ">
 
-[Link](url) and ![Image](src)
-```
+            <div class="cake col-lg-6">
+                <div class="container1" style="background-color: #ffe6e6;   width: 27rem; padding: 2rem 2rem 1rem 2rem; border-radius: 1rem;">
+                    <h2>Chocolate Cake</h2>
+                    <h6>Serves 3-5</h6>
+                    <ol type="1">  
+                        <li>Take a bowl and mix flour, cocoa powder, milk product and lorem Ipsum.</li>
+                        <li>Take a bowl and mix flour, lorem ipsum, milk powder and lorem ipsum dolor sit arnet random text here.</li>
+                        <li>Take a bowl and mix flour, lorem ipsum, milk powder and lorem ipsum dolor sit arnet random text here. Add some more points here.</li>
+                        <li>Enjoy your wholesome cake and enjoy with your family.</li>
+                    </ol>
+                </div>                    
+            </div>
+            
+            <div class="donut col-lg-6">
+                <div class="container2" style="background-color: #ffe6e6;  width: 27rem; padding: 2rem 2rem 1rem 2rem; border-radius: 1rem;">
+                    <h2>Creme Donuts</h2>
+                    <h6>Serves 3-5</h6>
+                    <ol type="1">  
+                        <li>Take a bowl and mix flour, cocoa powder, milk product and lorem Ipsum.</li>
+                        <li>Take a bowl and mix flour, lorem ipsum, milk powder and lorem ipsum dolor sit arnet random text here.</li>
+                        <li>Take a bowl and mix flour, lorem ipsum, milk powder and lorem ipsum dolor sit arnet random text here. Add some more points here.</li>
+                        <li>Enjoy your wholesome cake and enjoy with your family.</li>
+                    </ol>
+                </div>                    
+            </div>
+           
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+        </div>
+    </div>
 
-### Jekyll Themes
+    <div class="ellipse2">
+        <img src="./images/Ellipse 1.svg" class="float-right my-n5" style="transform: rotate(180deg);">
+    </div>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sm0se/Frontend-Task-3/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+    <div class="bottom my-5" style="background-color: #ffe6e6; padding: 5rem;">
+        <h2 class="title">Chocolate Cake</h2>
+        <div class="column d-flex">
+            <div class="content col-lg-8">
+                <ol class="ol2" type="1">
+                    <li><h4> Add this with this to get this </h4></li>
+                    <p>Take a bowl and mix flour, cocoa powder, milk powder and lorem ipsum.</p>
+                    <li><h4> Don't add excess food coloring</h4></li>
+                    <p>Take a bowl and mix flour, cocoa powder, milk powder and lorem ipsum.</p>
+                    <li><h4> Always check your timers</h4></li>
+                    <p>Just a simple tip always smile and cook</p>
+                </ol>
+            </div>
 
-### Support or Contact
+            <div class="tricks-pic col-lg-4">
+                <img src="./images/sneaky_tricks_illustration.svg" >
+            </div>
+        </div>
+    </div>
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+    <div class="socials d-flex text-white my-n5 " style="background-color: gray; padding: 4rem; justify-content: center;">
+        <div class="About col-lg-3">
+            <p class="fs-5">About</p>
+            <p>Hello, i am Mehul Rastogi,</p>
+            <p> owner of US. contact</p>
+            <p>me for surprise</p>
+        </div>
+
+        <div class="address col-lg-3">
+            <p class="fs-5">Address</p>
+            <p>21 Streetbecker Street</p>
+            <p>Brooklyn,</p>
+            <p>New york.</p>
+        </div>
+
+        <div class="contact col-lg-3">
+            <p class="fs-5">Contact</p>
+            <p>abc@gmail.co.co</p>
+            <p>Phone No.: 987654321</p>
+        </div>
+
+        <div class="Social col-lg-3">
+            <p class="fs-5">Socials</p>
+            <img src="./images/fb.svg">
+            <img src="./images/insta.svg">
+        </div>
+    </div>
+</body>
